@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/left_menu_home_black"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_post_a_job"
+            android:icon="@drawable/left_menu_post_a_job_black"
+            android:title="POST A JOB"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_posted_job"
+            android:icon="@drawable/left_menu_postedjob_black"
+            android:title="POSTED JOB" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/left_menu_notifications"
+            android:title="NOTIFICATIONS" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/left_menu_profile_black"
+            android:title="MY PROFILE" />
+    </group>
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/left_menu_contact_black"
+        android:title="CONTACT US" />
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/left_menu_about_black"
+        android:title="ABOUT US" />
+    <item
+        android:id="@+id/nav_cancellation_policy"
+        android:icon="@drawable/left_menu_privacy_black"
+        android:title="CANCELLATION POLICY" />
+    <item
+        android:id="@+id/nav_FAQ"
+        android:icon="@drawable/left_menu_faq_black"
+        android:title="FAQ" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/left_menu_logout_black"
+        android:title="LOGOUT" />
+</menu>

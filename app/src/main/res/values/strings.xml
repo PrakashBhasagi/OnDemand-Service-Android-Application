@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">OnDemand Service</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="search_menu_title">Search</string>
+    <string name="signup_text">S I G N U P</string>
+    <string name="submit_job_text">S U B M I T J O B</string>
+    <string name="submit_text">S U B M I T</string>
+    <string name="title_activity_customer_home">HandyMan App</string>
+    <string name="title_activity_service_provider_home">HandyMan App</string>
+    <string name="login_text">L O G I N</string>
+    <string name="job_accept">A C C E P T</string>
+    <string name="job_cancel">C A N C E L</string>
+    <string name="job_complete">C O M P L E T E</string>
+    <string name="job_reject">R E J E C T</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_message">Enter Your Message</string>
+    <string name="my_location">My Location</string>
+    <string name="location_is_empty">Your location is not selected yet!</string>
+    <string name="click_here_to_change_location">Click here to change location</string>
+    <string name="action_location">Location</string>
+    <string name="about_us_text">    &lt;html&gt;&lt;body&gt;&lt;font face=verdana&gt;&lt;h3&gt;About OnDemand Services App&lt;/h3&gt;    &lt;p&gt;Ondemand Service helps for connecting individuals looking for household services with top-quality, pre-screened independent service professionals. From home cleaning to services, Handy instantly matches thousands of customers every week with trusted professionals in cities all around the world. With a seamless booking process and backed by the OnDemand Happiness Guarantee, OnDemand Service is the easiest, most convenient way to book home services.&lt;/p&gt;    &lt;/font&gt;&lt;/body&gt;&lt;/html&gt;    </string>
+    <string name="cancellation_policy_text">    &lt;html&gt;&lt;body&gt;&lt;font face=verdana&gt;&lt;h3&gt;Cancellation Policy&lt;/h3&gt;    &lt;p&gt;The OnDemand Service  platform is made to be flexible, but we have some rules.&lt;/p&gt;\10    &lt;p&gt;Our policies are designed to promote a reliable, consistent experience for customers and pros alike.&lt;/p&gt;    &lt;p&gt;While we know schedules can change quickly, rescheduling or skipping a booking with short notice causes professionals to lose valuable work. Therefore, fees apply when bookings are cancelled or rescheduled within 24 hours (but more than 2 hrs) of your booking\'s start time.&lt;/p&gt;    &lt;/font&gt;&lt;/body&gt;&lt;/html&gt;    </string>
+    <string name="faq_text">    &lt;html&gt;&lt;body&gt;&lt;font face=verdana&gt;    &lt;h3&gt;FAQ&lt;/h3&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;    </string>
+
+</resources>

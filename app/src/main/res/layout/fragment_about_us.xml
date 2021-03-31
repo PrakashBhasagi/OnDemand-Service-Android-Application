@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor">
+
+    <androidx.cardview.widget.CardView
+        xmlns:ns1="http://schemas.android.com/apk/res-auto"
+        xmlns:ns2="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/backgroundColor"
+        ns1:cardCornerRadius="4dp"
+        ns2:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundColor">
+
+            <WebView
+                android:id="@+id/wv_about_us"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

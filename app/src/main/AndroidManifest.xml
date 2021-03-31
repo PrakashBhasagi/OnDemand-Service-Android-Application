@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamdemand.ondemandservice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".service_provider.SPNotificationActivity"></activity>
+        <activity android:name=".SelectLocationActivity" />
+        <activity
+            android:name=".service_provider.ServiceProviderHomeActivity"
+            android:label="Service Provider Demand"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".customer.CustomerHomeActivity"
+            android:label="Customer Demand"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".service_provider.SignUpServiceProviderActivity" />
+        <activity android:name=".customer.SignUpCustomerActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".FrontActivity" />
+        <activity android:name=".customer.CNotificationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
